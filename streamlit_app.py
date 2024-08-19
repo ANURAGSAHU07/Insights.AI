@@ -43,9 +43,8 @@ if not google_api_key:
 @st.cache_resource
 def get_llm():
     return ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash", 
+        model="gemini-1.5-pro-exp-0801", 
         temperature=0.9,
-        max_token=1000,
         google_api_key=google_api_key  # Use the API key from environment variable
     )
 
@@ -126,24 +125,7 @@ if query:
             
             st.subheader("Answer")
             st.write(results["answer"])
-            
-            # Sentiment Analysis
-            sentiment_prompt = f"Analyze the sentiment of this answer. Rate it on a scale from -1 (very negative) to 1 (very positive): {results['answer']}"
-            sentiment = llm(sentiment_prompt)
-            try:
-                sentiment_score = float(sentiment)
-                st.subheader("Sentiment Analysis")
-                fig = px.gauge(value=sentiment_score, range_color=[-1, 1], title="Sentiment Score")
-                st.plotly_chart(fig)
-            except ValueError:
-                st.warning("Couldn't parse sentiment score. Please try again.")
-            
-            # Key Points Extraction
-            key_points_prompt = f"Extract 3-5 key points from this answer: {results['answer']}"
-            key_points = llm(key_points_prompt).split('\n')
-            st.subheader("Key Points")
-            for point in key_points:
-                st.markdown(f"- {point}")
+
     else:
         st.warning("Please process some URLs before asking questions.")
 
