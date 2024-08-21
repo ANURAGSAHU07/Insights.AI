@@ -71,6 +71,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Anurag Sahu** - [anuragsahu4328@gmail.com](mailto:anuragsahu4328@gmail.com)
 
-Project Link: [https://github.com/ANURAGSAHU07/Market-analyzer.ai](https://github.com/your-username/market-research-analyzer-ai)
+Project Link: [https://market-analyzer-ai.streamlit.app/](https://market-analyzer-ai.streamlit.app/)
 
 ---
