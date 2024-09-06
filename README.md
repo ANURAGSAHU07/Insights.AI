@@ -1,5 +1,5 @@
 
-## 🚀 Market Research Analyzer AI
+## 🚀 Insights.AI
 
 Transform your market research with the power of AI! 📊💡
 
