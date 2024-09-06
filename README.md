@@ -40,7 +40,7 @@ To start the application:
 
 1. Launch the application:
    ```bash
-   streamlit run main.py
+   streamlit run streamlit_app.py
    ```
 2. Open your browser and navigate to `http://localhost:8501`.
 3. Start analyzing by entering article URLs in the sidebar.
