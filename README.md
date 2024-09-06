@@ -11,7 +11,6 @@ The **Market Research Analyzer AI** is a cutting-edge tool that revolutionizes h
 
 - **Multi-Source Analysis**: Process and analyze multiple URLs simultaneously.
 - **AI-Powered Q&A**: Get instant answers to your market-related questions.
-- **Sentiment Analysis**: Gauge market sentiment with advanced AI algorithms.
 - **Key Insights Extraction**: Automatically identify and summarize crucial market trends.
 - **Cross-Article Comparison**: Compare perspectives across different sources.
 - **Comprehensive Reporting**: Generate and download in-depth market research reports.
